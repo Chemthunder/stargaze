@@ -25,7 +25,7 @@ public abstract class CampfireBlockMixin extends BlockWithEntity implements Wate
 
         if (world.getBlockState(belowPos).isOf(Blocks.SOUL_SAND) && entity instanceof PlayerEntity player) {
             if (player != null) {
-                player.sendMessage(Text.literal("a").formatted(Formatting.DARK_PURPLE), true);
+                player.sendMessage(Text.translatable("text.stargaze.campfire_attack").formatted(Formatting.DARK_PURPLE), true);
             }
         }
     }
