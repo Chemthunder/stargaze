@@ -3,7 +3,8 @@
   "package": "silly.chemthunder.stargaze.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "CampfireBlockMixin"
+    "CampfireBlockMixin",
+    "SpyglassItemMixin"
   ],
   "injectors": {
     "defaultRequire": 1

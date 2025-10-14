@@ -28,5 +28,8 @@ public interface StargazeItemGroup{
 
     private static void addEntries(FabricItemGroupEntries itemGroup) {
        // itemGroup.add(BulwarkBlocks.DISRUPTER);
+        itemGroup.add(StargazeItems.BEFOULED_LENSE);
+        itemGroup.add(StargazeItems.REVEALING_LENSE);
+        itemGroup.add(StargazeItems.WAYFOUND_LENSE);
     }
 }

@@ -7,6 +7,7 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import silly.chemthunder.stargaze.Stargaze;
 import silly.chemthunder.stargaze.item.LenseItem;
+import silly.chemthunder.stargaze.item.LensedSpyglassItem;
 
 import java.util.function.Function;
 
@@ -25,6 +26,10 @@ public interface StargazeItems {
     );
 
     Item REVEALING_LENSE = create("revealing_lense", LenseItem::new, new AcornItemSettings()
+            .maxCount(1)
+    );
+
+    Item BEFOULED_SPYGLASS = create("befouled_spyglass", LensedSpyglassItem::new, new AcornItemSettings()
             .maxCount(1)
     );
 
